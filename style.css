@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Kode Mono", monospace;
+    background-color: #DEDDDD;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 118px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap:49vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+}
+    
+ header p {
+    color:#ffffff;
+    font-size: 26px;
+ }
+
+ a {
+    color: #ffffff;
+    font-size: 1vw;
+    text-decoration: none;
+ }
+
+ .baixar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    width: 11vw;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+ }
+
+main{
+    margin: 25vh 5vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+   
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+main a {
+    color: blue;
+}
+
+img {
+    width: 20vw;
+    border-radius: 20px;
+}
+
+
+
